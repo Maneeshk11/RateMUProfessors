@@ -1,0 +1,171 @@
+@media screen and (max-width: 480px) {
+
+    /* ------------------- footer --------------------- */
+
+    .footer {
+        /* display: none; */
+        height: auto;
+        width: 100%
+    }
+    .f1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 1rem;
+    }
+    .f11 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .f11 h1{
+        font-size: 2.2rem;
+    }
+    .f11 p{
+        font-size: 1.5rem;
+        padding: 0 1rem 1rem 1rem;
+    }
+    .f12 {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 1rem;
+    }
+    .f12 li {
+        margin: 0.5rem 0;
+    }
+    .f12 li a {
+        font-size: 1.5rem;
+    }
+    .f12 div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* text-align: center; */
+    }
+    .fH {
+        font-size: 1.5rem;
+    }
+    .f2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .f21 {
+        /* width: 100%;
+        margin: 0 5rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        height: 100%;
+        font-size: 1rem; */
+        display: none;
+    }
+    .f22 {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        /* margin: 0rem 8rem; */
+    }
+    .f22 i {
+        font-size: 3rem;
+        margin: 3rem;
+    }
+    .f21 h1 {
+        font-size: 1rem;
+    }
+
+    /*  -----------------------------  prof div ----------------------------------- */
+
+    .profDiv {
+        width: 32rem;
+        margin: 0;
+        margin-bottom: 2rem;
+    }
+
+    .leftProfDiv {
+        width: 10rem;
+    }
+
+    .rightProfDiv {
+        width: 22rem;
+    }
+
+    .rightProfDiv h1 {
+        font-size: 1.5rem;
+    }
+    .rightProfDiv h2 {
+        font-size: 1rem;
+        margin: 1rem 0;
+    }
+
+    .engg input {
+        font-size: 14px;
+        padding: 15px;
+        height: 20px;
+        width: 230px;
+        font-family: 'Prata', serif;
+    }
+      .searchIcon {
+        height: 50px;
+        width: 50px;        
+    }
+    .namesearchbutt {
+        width: 31rem;
+        flex-wrap: wrap;
+    }
+    .namesearchbutt li {
+        font-size: 1.5rem;
+        margin: 0.5rem;
+    }
+
+    /* --------------------------------------------  ABOUT US PAGE ------------------------------------------------*/
+
+    .main1 {
+        /* display: flex; */
+        flex-direction: column;
+        height: auto;
+     }
+    .mmmm {
+        height: auto;
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #E7F2F3;
+        padding: 1rem;
+        margin: auto;
+        text-align: center;
+    }
+    .mission {
+        width: 100%;
+        margin: auto;
+    }
+    .mission h1 {
+        font-size: 2.5rem;
+    }
+    .mission p {
+        font-size: 1.5rem;
+        line-height: 1.9;
+        /* white-space: normal; */
+    }
+
+    .team {
+        width: 100%;
+        margin: 2rem 0;
+        
+    }
+
+    .card {
+        margin: 2rem 0;
+    }
+
+    .swiper {
+        width: 95%;
+        height: 80%;
+      }
+}
+

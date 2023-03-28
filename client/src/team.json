@@ -1,0 +1,92 @@
+[
+    {
+        "name": "Maneesh Kolli",
+        "branch": "Computer Science",
+        "pic": "https://res.cloudinary.com/dlghtnqto/image/upload/v1679663636/RateMUProfessors/teamPics/maneesh_arvjaz.jpg",
+        "instagram":"https://www.instagram.com/maneesh.kolli/",
+        "linkedin": "https://www.linkedin.com/in/maneeshkolli/",
+        "github": "https://github.com/Maneeshk11",
+        "twitter": ""
+    },
+    {
+        "name": "Medha Prodduturi",
+        "branch": "Computer Science",
+        "pic": "https://res.cloudinary.com/dlghtnqto/image/upload/v1679050554/RateMUProfessors/teamPics/medha_m1ampk.jpg",
+        "role": "",
+        "instagram":"https://www.instagram.com/medhaa_/",
+        "linkedin": "https://www.linkedin.com/in/medha-prodduturi/",
+        "github": "https://github.com/medprod",
+        "twitter": ""
+    },
+    {
+        "name": "Sai Ravi Gangavarpu",
+        "branch": "Computer Science",
+        "pic": "https://res.cloudinary.com/dlghtnqto/image/upload/v1679664073/RateMUProfessors/teamPics/ravi_egbmwz.jpg",
+        "role": "",
+        "instagram":"https://www.instagram.com/floare_dor/",
+        "linkedin": "https://www.linkedin.com/in/sai-ravi-teja-gangavarapu/",
+        "github": "",
+        "twitter": ""
+    },
+    {
+        "name": "Rahul Arepaka",
+        "branch": "Computer Science",
+        "pic": "https://res.cloudinary.com/dlghtnqto/image/upload/v1678979580/RateMUProfessors/teamPics/paaka_wxsba0.jpg",
+        "role": "",
+        "instagram":"https://www.instagram.com/rahularepaka/",
+        "linkedin": "https://www.linkedin.com/in/rahul-arepaka/",
+        "github": "",
+        "twitter": ""
+    },
+    {
+        "name": "Prakhar Gupta",
+        "branch": "Computer Science",
+        "pic": "https://res.cloudinary.com/dlghtnqto/image/upload/v1679663712/RateMUProfessors/teamPics/prakhar_ofbord.jpg",
+        "role": "",
+        "instagram":"https://instagram.com/prakhar.g2001?igshid=MTIzZWQxMDU=",
+        "linkedin": "https://www.linkedin.com/in/prakhar-gupta-43830a73/",
+        "github": "https://github.com/prak12g",
+        "twitter": ""
+    },
+    {
+        "name": "D Rahul Manohar",
+        "branch": "Computer Science",
+        "pic": "https://res.cloudinary.com/dlghtnqto/image/upload/v1679663927/RateMUProfessors/teamPics/rahulManohar_fplxrz.jpg",
+        "role": "",
+        "instagram":"https://www.instagram.com/_rahulmanohar_/",
+        "linkedin": "https://www.linkedin.com/in/rahul-manohar-b8a37b155/",
+        "github": "",
+        "twitter": ""
+    },
+    {
+        "name": "Rithik G",
+        "branch": "Computer Science",
+        "pic": "https://res.cloudinary.com/dlghtnqto/image/upload/v1679663458/RateMUProfessors/teamPics/gri.jpg",
+        "role": "",
+        "instagram":"https://www.instagram.com/rithik_30/",
+        "linkedin": "",
+        "github": "",
+        "twitter": ""
+    },
+    {
+        "name": "Anvitha Reddy",
+        "branch": "Computer Science",
+        "pic": "https://res.cloudinary.com/dlghtnqto/image/upload/v1679052411/RateMUProfessors/teamPics/anvitha_bslllz.jpg",
+        "role": "",
+        "instagram":"https://www.instagram.com/anvitaxreddyy/",
+        "linkedin": "",
+        "github": "",
+        "twitter": ""
+    },
+    {
+        "name": "Rohit Gunnelly",
+        "branch": "Computer Science",
+        "pic": "",
+        "role": "",
+        "instagram":"https://www.instagram.com/gunnelly/",
+        "linkedin": "https://www.linkedin.com/in/rohit-gunnelly-2964a9264/",
+        "github": "",
+        "twitter": ""
+    }
+    
+]

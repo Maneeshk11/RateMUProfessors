@@ -1,0 +1,46 @@
+[
+    {
+        "schoolId":1,
+        "profs": [
+            {
+                "id": 1,
+                "name": "Maneesh Kolli",
+                "subject": "Computer science",
+                "rating": "4.6",
+                "content": "lorem ipsum dolor sit amet, consectetur adip lorem, sed do eiusmod tempor incididunt ut labore",
+                "lod": 2.4
+            },
+            {
+                "id": 2,
+                "name": "Medha",
+                "subject": "Mathematics",
+                "rating": "3.8",
+                "content": "lorem ipsum dolor sit amet, consectetur adip lorem, sed do eiusmod tempor incididunt ut labore",
+                "lod": 2.4
+            }
+            
+            
+        ]
+    },
+    {
+        "schoolId":2,
+        "profs": [
+            {
+                "id": 1,
+                "name": "Maneesh Kolli",
+                "subject": "Computer science",
+                "rating": "4.6",
+                "content": "lorem ipsum dolor sit amet, consectetur adip lorem, sed do eiusmod tempor incididunt ut labore",
+                "lod": 2.4
+            },
+            {
+                "id": 2,
+                "name": "Medha",
+                "subject": "Mathematics",
+                "rating": "3.8",
+                "content": "lorem ipsum dolor sit amet, consectetur adip lorem, sed do eiusmod tempor incididunt ut labore",
+                "lod": 2.4
+            }
+        ]
+    }    
+]

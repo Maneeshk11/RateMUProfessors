@@ -1,0 +1,943 @@
+* {
+    font-size: 10px;
+}
+
+body {
+    margin: 0;
+}
+li {
+    list-style-type: none;
+    
+    
+}
+a {
+    text-decoration: none;
+    font-size: 2rem;
+    color: black
+}
+.navhead {
+    height: 80px;
+    display: flex;
+    /* justify-content: space-around; */
+    width: 100vw;
+    align-items: center;
+}
+/* .login {
+    display: flex;
+    width: 25vw;
+    justify-content: center;
+}
+.login li {
+    margin: 0 1.5rem;
+}
+.login li a {
+    font-size: 1.5rem;
+} */
+
+.navLinks {
+    display: flex;
+    width: 60vw;
+    justify-content: flex-end;
+    font-family: 'Prata', serif;
+    font-size: 1.5rem;
+    padding: 0 4rem;
+    
+}
+.navLinks li {
+    margin-left: 6rem;
+}
+
+.logoMain {
+  height: 40px;
+  margin-left: 3rem;
+}
+
+.compName {
+    width: 40vw;
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Prata', serif;
+}
+/* .compName h1 {
+    
+    font-size: 2rem;
+    font-family: 'Prata', serif;
+} */
+
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+    font-family: 'Prata', serif;
+    font-size: 2rem;
+    margin-left: 6rem;
+    z-index: 1000;
+
+}
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    width: 30rem;
+    overflow: auto;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+    margin-left: -11rem;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFFFF;
+  }
+  .dropdown-content a {
+    display: block;
+    color: #000000;
+    padding: 5px;
+    text-decoration: none;
+    font-family: 'Prata', serif;
+    font-size: 1.8rem;
+  }
+  .dropdown-content a:hover {
+    color: #00A4BD;
+    /* background-color: #00A4BD; */
+  }
+  .dropdown button {
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+  }
+  .dropdown button i {
+    font-size: 2;
+  }
+
+
+/*  ------------------------ main page card ---------------------------*/
+
+.card1 {
+    width: 100vw;
+    height: 70vh;
+    background-color: #E7F2F3;
+    display: flex; 
+}
+.c1cards {
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* .c1cards img {
+    width: 80%;
+} */
+.sDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Prata', serif;
+}
+.sDiv h1 {
+    font-size: 5rem;
+}
+
+.sDiv h2 {
+    font-size: 3rem;
+}
+
+.box{
+    position: relative;
+    width:80px
+}
+
+.input {
+    padding: 10px;
+    width: 80px;
+    height: 80px;
+    background: none;
+    border: 4px solid #00A4BD;
+    border-radius: 50px;
+    box-sizing: border-box;
+    font-family: Comic Sans MS;
+    font-size: 26px;
+    color: #00A4BD;
+    outline: none;
+    transition: .5s;
+}
+.box:hover input{
+    width: 350px;
+    background: #3b3640;
+    border-radius: 10px;
+}
+.box i{
+    position: absolute;
+
+    top: 50%;
+    right: 15px;
+    transform: translate(-50%,-50%);
+    font-size: 26px;
+    color: #00A4BD;
+    transition: .2s;
+}
+.box:hover i{
+    opacity: 0;
+    z-index: -1;
+}
+
+.card2 {
+    width: 100vw;
+    height: 30vh;
+    background-color: #86BDC5;
+}
+
+/* ---------------------  footer  ---------------------------------  */
+
+.footer {
+    padding-top: 20px;
+    height: 30vh;
+    font-family: 'Prata', serif;
+    /* background-color: red; */
+    
+}
+
+.f1 {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+    
+}
+
+.f11 {
+    width: 40vw;
+}
+.f11 h1{
+    font-size: 2rem;
+}
+.f11 p{
+    font-size: 2rem;
+}
+.f12 {
+    display: flex;
+    width: 40vw;
+    justify-content: space-around;
+}
+.f12 li {
+    margin: 1rem 0;
+}
+
+.fH {
+    font-size: 2rem;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+.f2 {
+    display: flex;
+    width: 100vw;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.f21 {
+    width: 45vw;
+    margin: 0 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+}
+.f22 {
+    display: flex;
+    width: 50vw;
+    justify-content: flex-end;
+    margin: 0rem 8rem;
+}
+.f22 i {
+    font-size: 3rem;
+    margin: 3rem;
+}
+.f21 h1 {
+    font-size: 1.5rem;
+}
+
+
+/* ----------------Login component -------------- */
+
+.loginMain {
+    display: flex;
+    width: 100vw;
+    height: 70rem;
+}
+.login1 {
+    width: 55vw;
+    height: 100%;
+    background: #E7F2F3;
+    font-family: 'Prata', serif;
+}
+.login2 {
+    width:45vw;
+    height: 100%;
+    background: #92B7CC;
+    /* background: #70AED1; */
+    font-family: 'Prata', serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.login2 h1 {
+    font-size: 4rem;
+}
+.login2 h2 {
+    font-size: 2.5rem;
+    font-weight: lighter;
+}
+/* .buttonLogin {
+    background: #DBDBDB;
+} */
+  
+  .buttonLogin {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    text-decoration: none;
+    font-family: 'Prata', serif;
+    font-weight: 600;
+    font-size: 2em;
+    padding: 0.75em 1em;
+    color: #4397c8;
+    border: 0.15em solid #4397c8;
+    border-radius: calc(0.75em + 0.5em + 0.15em);
+    transition: 4s;
+    width: 33rem;
+    margin-top: 3rem;
+    cursor: pointer;
+  }
+  .buttonLogin:before, .buttonLogin:after {
+    content: "";
+    position: absolute;
+    top: -1em;
+    z-index: -1;
+    width: 200%;
+    aspect-ratio: 1;
+    border: none;
+    border-radius: 40%;
+    background-color: rgba(0, 0, 255, 0.25);
+    transition: 4s;
+  }
+  .buttonLogin:before {
+    left: -80%;
+    transform: translate3d(0, 5em, 0) rotate(-340deg);
+  }
+  .buttonLogin:after {
+    right: -80%;
+    transform: translate3d(0, 5em, 0) rotate(390deg);
+  }
+  .buttonLogin:hover, .buttonLogin:focus {
+    color: rgb(255, 255, 255);
+  }
+  .buttonLogin:hover:before, .buttonLogin:hover:after, .buttonLogin:focus:before, .buttonLogin:focus:after {
+    transform: none;
+    background-color: rgba(28, 79, 108, 0.75);
+    
+  }
+  .bL1 {
+    color: black;
+    border: 0.08em solid black;
+    font-weight: lighter;
+    width: 40rem;
+  }
+  .bL1:before, .bL1:after {
+    top: -0.6em;
+    
+  }
+  .login1 h1 {
+    font-size: 4rem;
+    margin-left: 8rem;
+  }
+  .login11 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 80%;
+  }
+  .login11 h2 {
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 1px solid #000; 
+    line-height: 0.1em;
+    margin: 10px 0 20px; 
+    
+ } 
+ 
+ .login11 h2 span { 
+     background:#E7F2F3;
+     padding:0 70px; 
+     font-size: 2rem;
+ }
+
+ .emailCont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 30rem;
+    justify-content: space-around;
+ }
+ .emailCont a {
+    color: #394DFF;
+ }
+
+ .emailCont input {
+    padding: 12px 20px;
+    font-size: 2rem;
+    border-width: calc(var(5) * 1px);
+    border-style: solid;
+    border-color: var(#fff);
+    border-radius: calc(var(6) * 1px);
+    text-align: center;
+    outline: transparent;
+    width: 100%;
+    transition: border-color calc(var(0.2, 0.2) * 1s) ease;
+    font-family: 'Prata', serif;
+ }
+
+ /* ------------------------  About Us --------------------------------- */
+
+ .main1 {
+    display: flex;
+    flex-direction: row;
+    height: 65vh;
+ }
+
+.mission {
+    /* height: 100%; */
+    width: 65rem;
+    display: flex;
+    flex-direction: column;
+    /* padding: 5rem;  */
+    font-family: 'Prata', serif;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+}
+
+.mission h1 {
+    font-size: 5rem;
+}
+.mission p {
+  width: 90%;
+    font-size: 1.5rem;
+    line-height: 2.2;
+}
+.mmmm {
+    height: 100%;
+    width: 60vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E7F2F3;
+    /* padding: 3rem; */
+}
+
+.team {
+    width: 40vw;
+    text-align: center;
+    font-family: 'Prata', serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.team h1 {
+    font-size: 2.5rem;
+    /* margin-top: 3rem; */
+    font-weight: bolder;
+}
+
+.card {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    background: #fff;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(15px);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+    font-family: 'Prata', serif;
+  }
+  
+  .img-bx {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    transform: translateY(30px) scale(0.5);
+    transform-origin: top;
+  }
+  
+  .img-bx img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 30px;
+  }
+  
+  .content .detail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .content .detail h2 {
+    color: #444;
+    font-size: 1.8rem;
+    font-weight: bolder;
+  }
+  
+  .content .detail h2 span {
+    font-size: 0.7em;
+    color: #03a9f4;
+    font-weight: bold;
+  }
+  
+  .sci {
+    position: relative;
+    display: flex;
+    margin-top: 5px;  
+    padding-left: 0%;
+  }
+  
+  .sci li {
+    list-style: none;
+    margin: 4px;
+  }
+  
+  .sci li a {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: transparent;
+    font-size: 1.5em;
+    color: #444;
+    text-decoration: none;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    transition: 0.5s;
+  }
+
+  .sci li a i {
+    font-size: larger;
+  }
+  
+  .sci li a:hover {
+    background: #03a9f4;
+    color: #fff;
+  }
+
+
+  .swiper {
+    width: 80%;
+    height: 80%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .swiper-button-prev, .swiper-button-next {
+    color: #1f7c8a;
+    font-weight: bolder;
+  }
+
+
+/* ---------------------------- PROF IN ESCOE -------------------------- */
+
+.engg {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.namesearchbutt {
+    text-decoration: underline;
+    margin: 5rem 0;
+    width:80rem;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Prata', serif;
+}
+.namesearchbutt li{
+    color: #394DFF;
+    /* margin: 0 1rem; */
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.profDiv {
+    width: 80rem;
+    height: 16rem;
+    background-color: #F7F7F7;
+    font-family: 'Prata', serif;
+    margin-left: 5rem;
+    display: flex;
+    margin-bottom: 2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    /* pointer-events: none; */
+}
+
+.profDiv:hover {
+  background-color: #8bd6e2;
+
+}
+
+.leftProfDiv {
+    height: 100%;
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+}
+.leftProfDiv h2 {
+    font-size: 1.2rem;
+}
+.leftProfDiv div {
+    width: 7rem;
+    height: 7rem;
+    /* background-color: rgb(161, 41, 41); */
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.leftProfDiv div h1 {
+    font-size: 3.5rem;
+    font-weight: bolder;
+}
+
+.rightProfDiv {
+    height: 100%;
+    width: 70rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    pointer-events: none;
+}
+.rightProfDiv h1 {
+     font-size: 2.5rem;
+     font-weight: bolder;
+}
+.rightProfDiv h2 {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+.searchBarProfs{
+  margin-bottom: 5rem;
+  display: flex;
+}
+
+.engg input {
+  background-color: white;
+  border: 2px solid black;
+  border-style: solid none solid solid;
+  border-radius: 2px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  font-size: 18px;
+  padding: 15px;
+  height: 30px;
+  width: 300px;
+  font-family: 'Prata', serif;
+}
+
+.searchIcon {
+  height: 60px;
+  width: 50px;
+  background-color: white;
+  display: grid;
+  place-items: center;
+  border: 2px solid black;
+  border-style: solid solid solid none;
+}
+
+input:focus {
+  outline: none;
+}
+.searchIcon svg {
+  font-size: 35px;
+}
+
+
+/* -------------------------- Prof profile page -------------------------------- */
+
+.ratingProfDetails {
+  font-family: 'Prata', serif;
+  font-weight: bolder;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 5rem;
+}
+
+.ratingProfDetails div {
+  width: 17rem;
+  height: 119px;
+  display: flex;
+  border: black 2px solid;
+  border-radius: 2rem;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Prata', serif;
+}
+
+.ratingProfDetails div h1 {
+  font-size: 8rem;
+}
+.ratingProfDetails div h2 {
+  margin-top: 5rem;
+  font-size: 2.3rem;
+}
+.ratingProfDetails h2 {
+  font-size: 1.2rem;
+}
+
+.pTop1 {
+  width: 100vw;
+  font-family: 'Prata', serif;
+  height: 23rem;
+  display: flex;
+}
+
+.pTopL1 {
+  display: flex;
+  width: 67vw;
+  height: 100%;
+}
+
+.profTotDetails {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.profTotDetails h1 {
+  font-size: 4rem;
+  margin: 0 0 1rem 0;
+}
+
+.profTotDetails h2 {
+  font-size: 2rem;
+  margin: 1rem 0 0 0;
+}
+
+.pTopL2 {
+  width: 33vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.pTopL2 h2 {
+  font-size: 1.4rem;
+  text-decoration: underline;
+}
+
+.pTopL2 h2:hover {
+  color: #394DFF;
+}
+
+.pTop2 {
+  font-family: 'Prata', serif;
+  border-bottom: 2px solid black;
+  padding: 2rem 0 5rem 0;
+}
+
+.pTopR1 {
+  width: 75vw;
+  display: flex;
+  flex-direction: column;
+}
+.barDiv {
+  width: 100%;
+  height: 8rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.barDiv h2 {
+  font-size: 2rem;
+  width: 25%;
+  text-align: end;
+  padding-right: 2rem;
+}
+
+.barDiv div {
+  background-color: #e4e4e4;
+  height: 6rem;
+  width: 60rem;
+  /* margin:2rem; */
+  border: 2px solid black;
+}
+.barDiv div div {
+  height: 100%;
+  background-color: #1b59f4;
+}
+
+.pTop3 {
+  font-family: 'Prata', serif;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.selectCourse {
+  margin: 4rem 0 4rem 6rem;
+  background-color: white;
+  border: 2px solid black;
+  border-style: solid solid solid solid;
+  border-radius: 2px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  font-size: 18px;
+  padding: 15px;
+  /* height: 30px; */
+  width: 300px;
+  font-family: 'Prata', serif;
+}
+
+.userRatDiv {
+  width: 120rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 5rem;
+  background-color: #F7F7F7;
+  padding: 3rem 2rem 1rem 2rem;
+  border-radius: 2rem;
+  border: 2px solid black;
+}
+
+.userRatDiv h2 {
+  font-size: 1.6rem;
+  font-weight: bolder;
+}
+
+.userNum {
+  width: 15%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.userNum h2 {
+  font-size: 1.1rem;
+  font-weight: 900;
+}
+.userQual {
+  height: 8rem;
+  width: 9rem;
+  border: 2px solid black;
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Prata', serif;
+
+}
+.userQual h1 {
+  font-size: 4rem;
+}
+.userDiff {
+  height: 8rem;
+  width: 9rem;
+  border: 2px solid black;
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Prata', serif;
+}
+.userDiff h1 {
+  font-size: 4rem;
+} 
+
+.userText {
+  /* width: 60%; */
+  width: 100rem;
+  min-height: 25vh;
+  /* border: 2px solid black; */
+  border-radius: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 2rem;
+  background-color: #ebebeb;
+}
+
+.userTextTop {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.userTextTop h2 {
+  margin: 2rem 3rem;
+}
+
+.userTextTop h1{
+  margin: 2rem 3rem;
+  font-size: 2.2rem;
+  font-weight: bolder;
+}
+
+.userText p {
+  margin:1rem 3rem;
+  font-size: 1.7rem;
+}
