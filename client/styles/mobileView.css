@@ -167,5 +167,41 @@
         width: 95%;
         height: 80%;
       }
+
+    /* -------------------------- professor rating page ----------------------------1 */
+
+    .rateBig {
+        display: flex;
+        flex-direction: column;
+    }
+    .ratehim1, .ratehim2 {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .rateStars {
+        width: 80%;
+        margin: 1.5rem 0;
+    }
+
+    .rateStarsCourse select{
+        margin: 2rem 0 2rem 3rem;
+        background-color: white;
+        border: 2px solid black;
+        border-style: solid solid solid solid;
+        border-radius: 2px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+        font-size: 15px;
+        padding: 10px;
+        /* height: 30px; */
+        width: 80%;
+        font-family: 'Poppins', sans-serif;
+      }
+      .rateStarsTextDiv {
+        /* width: 80rem; */
+        width: 90%;
+      }
 }
 

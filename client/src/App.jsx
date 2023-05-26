@@ -12,12 +12,15 @@ import SOM from "./components/som";
 import IMSOE from "./components/imsoe";
 import ProfDetail from "./components/profDetail";
 import RateProf from "./components/rating";
+import { lazy, Suspense } from "react"
+
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <div className="App">
+      
       <NavBar></NavBar>
       {/* <MainPageCard></MainPageCard> */}
       <Routes>
