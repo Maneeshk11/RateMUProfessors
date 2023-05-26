@@ -202,7 +202,10 @@ const ProfDetail = () => {
                   </div>
                   <div className="userText">
                     <div className="courseName">
-                      <h2>Course: {ratingObj.course}</h2>
+                      <h2>Course: </h2>
+                      <h2 style={{
+                        paddingLeft: "1rem"
+                      }}>{ratingObj.course}</h2>
                     </div>
                     <div className="courseName">
                       <p>{ratingObj.feedback}</p>
